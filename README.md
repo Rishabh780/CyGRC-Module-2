@@ -1,2 +1,3 @@
 # CyGRC-Module-2
-This document is the working control document for the CyGRC Module 2 VAPT and Red Team workstreams. It records the environment baseline already established, the backend startup issues that were identified and resolved, the current implementation state, and the exact allocation of the named VAPT and Red Team interns
+A practical security testing repository covering API security, web application vulnerabilities, authentication, authorization, IDOR/BOLA, RBAC, JWT validation, security test cases, and remediation strategies.
+OWASP  API Security Penetration Testing Authorization
