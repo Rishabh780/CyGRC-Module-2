@@ -1,0 +1,23 @@
+Phase 1 — Reconnaissance and endpoint discovery
+
+Identify API specifications, routes, HTTP methods, parameters, content types, authentication requirements, and exposed documentation.
+
+Phase 2 — Authentication and authorization
+
+Validate login, sessions, tokens, role enforcement, tenant isolation, BOLA/IDOR, and function-level authorization.
+
+Phase 3 — Input and business-logic testing
+
+Test validation, parameter tampering, injection classes, mass assignment, and inconsistent server-side controls.
+
+Phase 4 — File and network attack surfaces
+
+Assess uploads, downloads, path traversal, SSRF protections, archive extraction, and file access controls.
+
+Phase 5 — Resilience and configuration
+
+Review rate limits, security headers, CORS, TLS, error handling, exposed debug features, and API versioning.
+
+Phase 6 — Evidence and reporting
+
+Reproduce suspected vulnerabilities, confirm impact, preserve sanitized request/response evidence, and retest fixes.
