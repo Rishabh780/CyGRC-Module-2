@@ -1,0 +1,87 @@
+API & Web Application Security Testing
+Overview
+
+This repository provides a practical framework for testing the security of web applications and APIs, with a primary focus on authentication, authorization, access control, and common web security vulnerabilities.
+
+The project documents security testing methodologies, test cases, sample HTTP requests, vulnerability assessment procedures, and remediation recommendations for authorized security assessments.
+
+Objectives
+Identify authentication and authorization weaknesses.
+Test for Broken Object Level Authorization (BOLA) and IDOR.
+Evaluate Role-Based Access Control (RBAC).
+Validate JWT and session management security.
+Assess REST API endpoints and HTTP methods.
+Identify common web application vulnerabilities.
+Document security findings with reproducible steps.
+Recommend secure implementation and remediation practices.
+Scope of Testing
+1. Authentication Testing
+Login and logout functionality
+Password reset and account recovery
+Multi-factor authentication
+Session expiration and invalidation
+JWT signature and claim validation
+2. Authorization Testing
+Horizontal privilege escalation
+Vertical privilege escalation
+Insecure Direct Object Reference (IDOR)
+Broken Object Level Authorization (BOLA)
+Broken Function Level Authorization (BFLA)
+Role and permission enforcement
+Multi-tenant data isolation
+3. API Security Testing
+REST API endpoint authorization
+HTTP method restrictions
+Input validation
+Mass assignment
+Excessive data exposure
+Rate limiting and resource consumption
+CORS and security configuration
+4. Web Application Security
+Cross-Site Scripting (XSS)
+SQL Injection
+Cross-Site Request Forgery (CSRF)
+Server-Side Request Forgery (SSRF)
+File upload validation
+Security misconfiguration
+Security header validation
+Testing Methodology
+Define the authorized scope and testing objectives.
+Identify application endpoints and user roles.
+Establish baseline behavior using legitimate accounts.
+Test access controls with different user identities.
+Validate expected and actual responses.
+Document reproducible findings and supporting evidence.
+Assess impact and assign severity.
+Recommend remediation and perform retesting.
+Tools
+Burp Suite
+OWASP ZAP
+Postman
+cURL
+Browser Developer Tools
+Git and GitHub
+Repository Structure
+docs/ — testing methodology and remediation guidance
+test-cases/ — reusable security test cases
+examples/ — sample HTTP requests and security scenarios
+reports/ — vulnerability report templates
+references/ — standards and learning resources
+Expected Deliverables
+Security testing checklist
+Authentication and authorization test cases
+API security assessment scenarios
+Vulnerability documentation
+Remediation recommendations
+Retesting results
+References
+OWASP Web Security Testing Guide: https://owasp.org/www-project-web-security-testing-guide/
+OWASP API Security Top 10: https://owasp.org/www-project-api-security/
+PortSwigger Web Security Academy: https://portswigger.net/web-security
+Disclaimer
+
+This repository is intended for educational purposes and authorized security assessments only. Test only applications, APIs, and systems for which you have explicit permission. Do not use these materials to access, modify, or disrupt unauthorized systems.
+
+Author
+
+Maintained as a cybersecurity learning and security testing project.
