@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+credentials.json
+secrets.*
+
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+
+reports/*
+!reports/.gitkeep
+
+specs/*
+!specs/.gitkeep
+This helps prevent accidental commits of secrets and assessment artifacts. Review files before every commit; .gitignore alone does not protect secrets already tracked by Git.
+
