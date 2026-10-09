@@ -1,0 +1,13 @@
+http
+### Authorized user's resource
+GET https://api.example.test/v1/orders/1001
+Authorization: Bearer {{user_a_token}}
+Accept: application/json
+
+### Test access to a different user's resource
+GET https://api.example.test/v1/orders/1002
+Authorization: Bearer {{user_a_token}}
+Accept: application/json
+Replace the example hostname and resource IDs with values from your authorized test environment. Configure user_a_token using a local environment variable or your HTTP client's secret store. Never commit real credentials or production tokens.
+
+Pass condition: User A cannot read or modify User B's order without explicit authorization
