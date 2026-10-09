@@ -1,0 +1,21 @@
+API-Web-Application-Security-Testing/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── testing-methodology.md
+│   ├── authorization-testing.md
+│   └── remediation-guide.md
+├── test-cases/
+│   ├── authentication-tests.md
+│   ├── authorization-tests.md
+│   ├── api-security-tests.md
+│   └── web-security-tests.md
+├── examples/
+│   ├── idor-bola-example.http
+│   ├── jwt-validation.md
+│   └── role-based-access-control.md
+├── reports/
+│   └── vulnerability-report-template.md
+└── references/
+    └── security-resources.md
